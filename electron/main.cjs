@@ -1,6 +1,6 @@
 // Electron-оболочка ABYSSAL: окно, полноэкранный режим, файловые сохранения (Steam Cloud),
 // интеграция Steamworks (достижения, оверлей) с безопасным откатом, если Steam не запущен.
-const { app, BrowserWindow, ipcMain, shell } = require('electron');
+const { app, BrowserWindow, ipcMain, shell, screen } = require('electron');
 const path = require('path');
 const fs = require('fs');
 
@@ -78,8 +78,11 @@ ipcMain.on('dev:saveImage', (e, name, dataUrl) => {
 });
 
 function create() {
+  // окно по рабочей области экрана (на ноутбуках с масштабом 125–150% 1600×900 не помещается), сразу во весь экран
+  const wa = screen.getPrimaryDisplay().workAreaSize;
   const win = new BrowserWindow({
-    width: 1600, height: 900, minWidth: 1024, minHeight: 600, backgroundColor: '#000000', autoHideMenuBar: true,
+    width: Math.min(1600, wa.width), height: Math.min(900, wa.height), minWidth: 800, minHeight: 500, backgroundColor: '#000000', autoHideMenuBar: true,
+    fullscreen: !process.argv.includes('--windowed'), useContentSize: true,
     title: 'ABYSSAL: Below the Silence', icon: path.join(__dirname, 'icon.png'), show: false,
     webPreferences: { backgroundThrottling: false, preload: path.join(__dirname, 'preload.cjs'), contextIsolation: true }
   });
