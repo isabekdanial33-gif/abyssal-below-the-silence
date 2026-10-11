@@ -1,0 +1,16 @@
+{
+  "name": "abyssal-below-the-silence",
+  "private": true,
+  "version": "1.0.5",
+  "description": "ABYSSAL: BELOW THE SILENCE — психологический survival horror на Three.js",
+  "type": "module",
+  "scripts": {},
+  "dependencies": {
+    "steamworks.js": "^0.4.0"
+  },
+  "devDependencies": {
+    "@electron/packager": "^18.3.6",
+    "electron": "^31.7.7"
+  },
+  "main": "electron/main.cjs"
+}

@@ -1,0 +1,737 @@
+{
+ "_comment": "Список реальных файлов озвучки. Добавьте сюда записи вида {\"id\": \"c1_elena_first\", \"file\": \"ru/c1_elena_first.ogg\", \"cues\": [[0.0, \"Текст\"], [2.4, \"Продолжение\"]]}. Файлы кладутся в public/audio/vo/. Если список пуст — используется процедурный голос/TTS.",
+ "lines": [
+  {
+   "id": "c1_wake#2",
+   "file": "ru/c1_wake_2.mp3"
+  },
+  {
+   "id": "c1_wake#4",
+   "file": "ru/c1_wake_4.mp3"
+  },
+  {
+   "id": "c1_wake#5",
+   "file": "ru/c1_wake_5.mp3"
+  },
+  {
+   "id": "c1_got_crowbar#0",
+   "file": "ru/c1_got_crowbar_0.mp3"
+  },
+  {
+   "id": "c1_out_of_car#0",
+   "file": "ru/c1_out_of_car_0.mp3"
+  },
+  {
+   "id": "c1_out_of_car#1",
+   "file": "ru/c1_out_of_car_1.mp3"
+  },
+  {
+   "id": "c1_panel_on#2",
+   "file": "ru/c1_panel_on_2.mp3"
+  },
+  {
+   "id": "c1_panel_on#4",
+   "file": "ru/c1_panel_on_4.mp3"
+  },
+  {
+   "id": "c1_panel_on#7",
+   "file": "ru/c1_panel_on_7.mp3"
+  },
+  {
+   "id": "c1_shaft#2",
+   "file": "ru/c1_shaft_2.mp3"
+  },
+  {
+   "id": "c1_car_falls#3",
+   "file": "ru/c1_car_falls_3.mp3"
+  },
+  {
+   "id": "c1_tunnels#0",
+   "file": "ru/c1_tunnels_0.mp3"
+  },
+  {
+   "id": "c1_generator#0",
+   "file": "ru/c1_generator_0.mp3"
+  },
+  {
+   "id": "c1_overload#1",
+   "file": "ru/c1_overload_1.mp3"
+  },
+  {
+   "id": "c1_lights_on#0",
+   "file": "ru/c1_lights_on_0.mp3"
+  },
+  {
+   "id": "c1_radio_contact#1",
+   "file": "ru/c1_radio_contact_1.mp3"
+  },
+  {
+   "id": "c1_radio_contact#3",
+   "file": "ru/c1_radio_contact_3.mp3"
+  },
+  {
+   "id": "c1_radio_contact#4",
+   "file": "ru/c1_radio_contact_4.mp3"
+  },
+  {
+   "id": "c1_radio_contact#5",
+   "file": "ru/c1_radio_contact_5.mp3"
+  },
+  {
+   "id": "c1_radio_contact#6",
+   "file": "ru/c1_radio_contact_6.mp3"
+  },
+  {
+   "id": "c1_radio_contact#9",
+   "file": "ru/c1_radio_contact_9.mp3"
+  },
+  {
+   "id": "c1_radio_contact#12",
+   "file": "ru/c1_radio_contact_12.mp3"
+  },
+  {
+   "id": "c1_radio_contact#17",
+   "file": "ru/c1_radio_contact_17.mp3"
+  },
+  {
+   "id": "c1_radio_contact#18",
+   "file": "ru/c1_radio_contact_18.mp3"
+  },
+  {
+   "id": "c1_radio_contact#19",
+   "file": "ru/c1_radio_contact_19.mp3"
+  },
+  {
+   "id": "c1_radio_contact#22",
+   "file": "ru/c1_radio_contact_22.mp3"
+  },
+  {
+   "id": "c1_radio_contact#23",
+   "file": "ru/c1_radio_contact_23.mp3"
+  },
+  {
+   "id": "c1_radio_contact#24",
+   "file": "ru/c1_radio_contact_24.mp3"
+  },
+  {
+   "id": "c1_radio_contact#25",
+   "file": "ru/c1_radio_contact_25.mp3"
+  },
+  {
+   "id": "c1_radio_contact#26",
+   "file": "ru/c1_radio_contact_26.mp3"
+  },
+  {
+   "id": "c1_radio_contact#28",
+   "file": "ru/c1_radio_contact_28.mp3"
+  },
+  {
+   "id": "c1_radio_contact#30",
+   "file": "ru/c1_radio_contact_30.mp3"
+  },
+  {
+   "id": "c1_radio_contact#33",
+   "file": "ru/c1_radio_contact_33.mp3"
+  },
+  {
+   "id": "c1_radio_contact#35",
+   "file": "ru/c1_radio_contact_35.mp3"
+  },
+  {
+   "id": "c2_enter#0",
+   "file": "ru/c2_enter_0.mp3"
+  },
+  {
+   "id": "c2_enter#2",
+   "file": "ru/c2_enter_2.mp3"
+  },
+  {
+   "id": "c2_enter#3",
+   "file": "ru/c2_enter_3.mp3"
+  },
+  {
+   "id": "c2_room4#0",
+   "file": "ru/c2_room4_0.mp3"
+  },
+  {
+   "id": "c2_room4#2",
+   "file": "ru/c2_room4_2.mp3"
+  },
+  {
+   "id": "c2_room3#0",
+   "file": "ru/c2_room3_0.mp3"
+  },
+  {
+   "id": "c2_medkit_note#0",
+   "file": "ru/c2_medkit_note_0.mp3"
+  },
+  {
+   "id": "c2_staff_list#0",
+   "file": "ru/c2_staff_list_0.mp3"
+  },
+  {
+   "id": "c2_staff_list#1",
+   "file": "ru/c2_staff_list_1.mp3"
+  },
+  {
+   "id": "c2_got_card#0",
+   "file": "ru/c2_got_card_0.mp3"
+  },
+  {
+   "id": "c2_got_card#2",
+   "file": "ru/c2_got_card_2.mp3"
+  },
+  {
+   "id": "c2_got_card#5",
+   "file": "ru/c2_got_card_5.mp3"
+  },
+  {
+   "id": "c2_got_card#6",
+   "file": "ru/c2_got_card_6.mp3"
+  },
+  {
+   "id": "c2_got_card#7",
+   "file": "ru/c2_got_card_7.mp3"
+  },
+  {
+   "id": "c2_got_card#8",
+   "file": "ru/c2_got_card_8.mp3"
+  },
+  {
+   "id": "c2_mimic_shower#0",
+   "file": "ru/c2_mimic_shower_0.mp3"
+  },
+  {
+   "id": "c2_mimic_shower#2",
+   "file": "ru/c2_mimic_shower_2.mp3"
+  },
+  {
+   "id": "c2_mimic_shower#3",
+   "file": "ru/c2_mimic_shower_3.mp3"
+  },
+  {
+   "id": "c2_mimic_shower#4",
+   "file": "ru/c2_mimic_shower_4.mp3"
+  },
+  {
+   "id": "c2_mimic_shower#5",
+   "file": "ru/c2_mimic_shower_5.mp3"
+  },
+  {
+   "id": "c2_mimic_shower#7",
+   "file": "ru/c2_mimic_shower_7.mp3"
+  },
+  {
+   "id": "c3_enter#0",
+   "file": "ru/c3_enter_0.mp3"
+  },
+  {
+   "id": "c3_enter#1",
+   "file": "ru/c3_enter_1.mp3"
+  },
+  {
+   "id": "c3_enter#2",
+   "file": "ru/c3_enter_2.mp3"
+  },
+  {
+   "id": "c3_resonance#1",
+   "file": "ru/c3_resonance_1.mp3"
+  },
+  {
+   "id": "c3_restored#1",
+   "file": "ru/c3_restored_1.mp3"
+  },
+  {
+   "id": "c3_restored#3",
+   "file": "ru/c3_restored_3.mp3"
+  },
+  {
+   "id": "c3_restored#4",
+   "file": "ru/c3_restored_4.mp3"
+  },
+  {
+   "id": "c3_restored#5",
+   "file": "ru/c3_restored_5.mp3"
+  },
+  {
+   "id": "c3_chase_start#1",
+   "file": "ru/c3_chase_start_1.mp3"
+  },
+  {
+   "id": "c3_after_chase#0",
+   "file": "ru/c3_after_chase_0.mp3"
+  },
+  {
+   "id": "c3_after_chase#1",
+   "file": "ru/c3_after_chase_1.mp3"
+  },
+  {
+   "id": "c3_after_chase#2",
+   "file": "ru/c3_after_chase_2.mp3"
+  },
+  {
+   "id": "c3_after_chase#3",
+   "file": "ru/c3_after_chase_3.mp3"
+  },
+  {
+   "id": "c3_after_chase#4",
+   "file": "ru/c3_after_chase_4.mp3"
+  },
+  {
+   "id": "c3_after_chase#5",
+   "file": "ru/c3_after_chase_5.mp3"
+  },
+  {
+   "id": "c3_after_chase#6",
+   "file": "ru/c3_after_chase_6.mp3"
+  },
+  {
+   "id": "c3_camera#0",
+   "file": "ru/c3_camera_0.mp3"
+  },
+  {
+   "id": "c3_camera#1",
+   "file": "ru/c3_camera_1.mp3"
+  },
+  {
+   "id": "c4_enter#0",
+   "file": "ru/c4_enter_0.mp3"
+  },
+  {
+   "id": "c4_enter#1",
+   "file": "ru/c4_enter_1.mp3"
+  },
+  {
+   "id": "c4_train#2",
+   "file": "ru/c4_train_2.mp3"
+  },
+  {
+   "id": "c4_train#4",
+   "file": "ru/c4_train_4.mp3"
+  },
+  {
+   "id": "c4_map_conflict#0",
+   "file": "ru/c4_map_conflict_0.mp3"
+  },
+  {
+   "id": "c4_map_conflict#1",
+   "file": "ru/c4_map_conflict_1.mp3"
+  },
+  {
+   "id": "c4_mimic_platform#0",
+   "file": "ru/c4_mimic_platform_0.mp3"
+  },
+  {
+   "id": "c4_mimic_platform#2",
+   "file": "ru/c4_mimic_platform_2.mp3"
+  },
+  {
+   "id": "c4_deadend#0",
+   "file": "ru/c4_deadend_0.mp3"
+  },
+  {
+   "id": "c4_deadend#1",
+   "file": "ru/c4_deadend_1.mp3"
+  },
+  {
+   "id": "c4_deadend#5",
+   "file": "ru/c4_deadend_5.mp3"
+  },
+  {
+   "id": "c4_exit#0",
+   "file": "ru/c4_exit_0.mp3"
+  },
+  {
+   "id": "c4_exit#4",
+   "file": "ru/c4_exit_4.mp3"
+  },
+  {
+   "id": "c4_exit#5",
+   "file": "ru/c4_exit_5.mp3"
+  },
+  {
+   "id": "c5_hydro#0",
+   "file": "ru/c5_hydro_0.mp3"
+  },
+  {
+   "id": "c5_hydro#1",
+   "file": "ru/c5_hydro_1.mp3"
+  },
+  {
+   "id": "c5_drained#1",
+   "file": "ru/c5_drained_1.mp3"
+  },
+  {
+   "id": "c5_fault#0",
+   "file": "ru/c5_fault_0.mp3"
+  },
+  {
+   "id": "c5_fault#2",
+   "file": "ru/c5_fault_2.mp3"
+  },
+  {
+   "id": "c5_mimic_fault#0",
+   "file": "ru/c5_mimic_fault_0.mp3"
+  },
+  {
+   "id": "c5_mimic_fault#2",
+   "file": "ru/c5_mimic_fault_2.mp3"
+  },
+  {
+   "id": "c5_badge#0",
+   "file": "ru/c5_badge_0.mp3"
+  },
+  {
+   "id": "c5_badge#2",
+   "file": "ru/c5_badge_2.mp3"
+  },
+  {
+   "id": "c5_archive#0",
+   "file": "ru/c5_archive_0.mp3"
+  },
+  {
+   "id": "c5_truth#0",
+   "file": "ru/c5_truth_0.mp3"
+  },
+  {
+   "id": "c5_truth#1",
+   "file": "ru/c5_truth_1.mp3"
+  },
+  {
+   "id": "c5_truth#3",
+   "file": "ru/c5_truth_3.mp3"
+  },
+  {
+   "id": "c5_truth#4",
+   "file": "ru/c5_truth_4.mp3"
+  },
+  {
+   "id": "c5_truth#5",
+   "file": "ru/c5_truth_5.mp3"
+  },
+  {
+   "id": "c5_truth#7",
+   "file": "ru/c5_truth_7.mp3"
+  },
+  {
+   "id": "c6_enter#0",
+   "file": "ru/c6_enter_0.mp3"
+  },
+  {
+   "id": "c6_enter#1",
+   "file": "ru/c6_enter_1.mp3"
+  },
+  {
+   "id": "c6_room4#0",
+   "file": "ru/c6_room4_0.mp3"
+  },
+  {
+   "id": "c6_verified#0",
+   "file": "ru/c6_verified_0.mp3"
+  },
+  {
+   "id": "c6_verified#1",
+   "file": "ru/c6_verified_1.mp3"
+  },
+  {
+   "id": "c6_failed_verify#0",
+   "file": "ru/c6_failed_verify_0.mp3"
+  },
+  {
+   "id": "c6_console#0",
+   "file": "ru/c6_console_0.mp3"
+  },
+  {
+   "id": "c6_console#1",
+   "file": "ru/c6_console_1.mp3"
+  },
+  {
+   "id": "c6_console#2",
+   "file": "ru/c6_console_2.mp3"
+  },
+  {
+   "id": "end_a_good#0",
+   "file": "ru/end_a_good_0.mp3"
+  },
+  {
+   "id": "end_a_good#2",
+   "file": "ru/end_a_good_2.mp3"
+  },
+  {
+   "id": "end_a_good#3",
+   "file": "ru/end_a_good_3.mp3"
+  },
+  {
+   "id": "end_a_good#4",
+   "file": "ru/end_a_good_4.mp3"
+  },
+  {
+   "id": "end_a_good#6",
+   "file": "ru/end_a_good_6.mp3"
+  },
+  {
+   "id": "end_a_good#9",
+   "file": "ru/end_a_good_9.mp3"
+  },
+  {
+   "id": "end_a_bad#0",
+   "file": "ru/end_a_bad_0.mp3"
+  },
+  {
+   "id": "end_a_bad#6",
+   "file": "ru/end_a_bad_6.mp3"
+  },
+  {
+   "id": "end_b#0",
+   "file": "ru/end_b_0.mp3"
+  },
+  {
+   "id": "end_b#1",
+   "file": "ru/end_b_1.mp3"
+  },
+  {
+   "id": "end_b#5",
+   "file": "ru/end_b_5.mp3"
+  },
+  {
+   "id": "end_b#6",
+   "file": "ru/end_b_6.mp3"
+  },
+  {
+   "id": "end_b#8",
+   "file": "ru/end_b_8.mp3"
+  },
+  {
+   "id": "end_c#0",
+   "file": "ru/end_c_0.mp3"
+  },
+  {
+   "id": "end_c#2",
+   "file": "ru/end_c_2.mp3"
+  },
+  {
+   "id": "end_c#3",
+   "file": "ru/end_c_3.mp3"
+  },
+  {
+   "id": "end_c#4",
+   "file": "ru/end_c_4.mp3"
+  },
+  {
+   "id": "end_c#5",
+   "file": "ru/end_c_5.mp3"
+  },
+  {
+   "id": "end_c#7",
+   "file": "ru/end_c_7.mp3"
+  },
+  {
+   "id": "end_c#8",
+   "file": "ru/end_c_8.mp3"
+  },
+  {
+   "id": "end_d#0",
+   "file": "ru/end_d_0.mp3"
+  },
+  {
+   "id": "end_d#1",
+   "file": "ru/end_d_1.mp3"
+  },
+  {
+   "id": "end_d#2",
+   "file": "ru/end_d_2.mp3"
+  },
+  {
+   "id": "end_d#4",
+   "file": "ru/end_d_4.mp3"
+  },
+  {
+   "id": "end_d#6",
+   "file": "ru/end_d_6.mp3"
+  },
+  {
+   "id": "rec_sokolov_1#0",
+   "file": "ru/rec_sokolov_1_0.mp3"
+  },
+  {
+   "id": "rec_sokolov_1#1",
+   "file": "ru/rec_sokolov_1_1.mp3"
+  },
+  {
+   "id": "rec_sokolov_1#2",
+   "file": "ru/rec_sokolov_1_2.mp3"
+  },
+  {
+   "id": "rec_sokolov_2#0",
+   "file": "ru/rec_sokolov_2_0.mp3"
+  },
+  {
+   "id": "rec_sokolov_2#1",
+   "file": "ru/rec_sokolov_2_1.mp3"
+  },
+  {
+   "id": "rec_sokolov_2#2",
+   "file": "ru/rec_sokolov_2_2.mp3"
+  },
+  {
+   "id": "rec_sokolov_3#0",
+   "file": "ru/rec_sokolov_3_0.mp3"
+  },
+  {
+   "id": "rec_sokolov_3#1",
+   "file": "ru/rec_sokolov_3_1.mp3"
+  },
+  {
+   "id": "rec_sokolov_3#2",
+   "file": "ru/rec_sokolov_3_2.mp3"
+  },
+  {
+   "id": "rec_sokolov_4#0",
+   "file": "ru/rec_sokolov_4_0.mp3"
+  },
+  {
+   "id": "rec_sokolov_4#1",
+   "file": "ru/rec_sokolov_4_1.mp3"
+  },
+  {
+   "id": "rec_sokolov_4#2",
+   "file": "ru/rec_sokolov_4_2.mp3"
+  },
+  {
+   "id": "rec_sokolov_5#0",
+   "file": "ru/rec_sokolov_5_0.mp3"
+  },
+  {
+   "id": "rec_sokolov_5#1",
+   "file": "ru/rec_sokolov_5_1.mp3"
+  },
+  {
+   "id": "rec_sokolov_5#2",
+   "file": "ru/rec_sokolov_5_2.mp3"
+  },
+  {
+   "id": "rec_sokolov_5#3",
+   "file": "ru/rec_sokolov_5_3.mp3"
+  },
+  {
+   "id": "rec_mironova_41#0",
+   "file": "ru/rec_mironova_41_0.mp3"
+  },
+  {
+   "id": "rec_mironova_41#1",
+   "file": "ru/rec_mironova_41_1.mp3"
+  },
+  {
+   "id": "rec_mironova_41#2",
+   "file": "ru/rec_mironova_41_2.mp3"
+  },
+  {
+   "id": "rec_mironova_41#3",
+   "file": "ru/rec_mironova_41_3.mp3"
+  },
+  {
+   "id": "rec_mironova_final#0",
+   "file": "ru/rec_mironova_final_0.mp3"
+  },
+  {
+   "id": "rec_mironova_final#1",
+   "file": "ru/rec_mironova_final_1.mp3"
+  },
+  {
+   "id": "rec_mironova_final#2",
+   "file": "ru/rec_mironova_final_2.mp3"
+  },
+  {
+   "id": "rec_mironova_final#3",
+   "file": "ru/rec_mironova_final_3.mp3"
+  },
+  {
+   "id": "rec_mironova_numbers#0",
+   "file": "ru/rec_mironova_numbers_0.mp3"
+  },
+  {
+   "id": "rec_mironova_numbers#1",
+   "file": "ru/rec_mironova_numbers_1.mp3"
+  },
+  {
+   "id": "rec_mironova_numbers#2",
+   "file": "ru/rec_mironova_numbers_2.mp3"
+  },
+  {
+   "id": "rec_mironova_numbers#3",
+   "file": "ru/rec_mironova_numbers_3.mp3"
+  },
+  {
+   "id": "rec_elena_final#0",
+   "file": "ru/rec_elena_final_0.mp3"
+  },
+  {
+   "id": "rec_elena_final#1",
+   "file": "ru/rec_elena_final_1.mp3"
+  },
+  {
+   "id": "rec_elena_final#2",
+   "file": "ru/rec_elena_final_2.mp3"
+  },
+  {
+   "id": "rec_elena_final#3",
+   "file": "ru/rec_elena_final_3.mp3"
+  },
+  {
+   "id": "rec_elena_final#4",
+   "file": "ru/rec_elena_final_4.mp3"
+  },
+  {
+   "text": "Алексей, я нашла выход. Иди на звук. Иди на звук.",
+   "file": "ru/text_0JDQu9C10LrRgdC10LksINGPINC90LDRiNC70LAg.mp3"
+  },
+  {
+   "text": "Не молчи. Алексей, не молчи.",
+   "file": "ru/text_0J3QtSDQvNC-0LvRh9C4LiDQkNC70LXQutGB0LXQ.mp3"
+  },
+  {
+   "text": "Помогите... кто-нибудь... пожалуйста.",
+   "file": "ru/text_0J_QvtC80L7Qs9C40YLQtS4uLiDQutGC0L4t0L3Q.mp3"
+  },
+  {
+   "text": "Там кто-то есть.",
+   "file": "ru/text_0KLQsNC8INC60YLQvi3RgtC-INC10YHRgtGMLg.mp3"
+  },
+  {
+   "text": "Ладно. Значит, только вниз.",
+   "file": "ru/text_0JvQsNC00L3Qvi4g0JfQvdCw0YfQuNGCLCDRgtC-.mp3"
+  },
+  {
+   "text": "Ужин остывает.",
+   "file": "ru/text_0KPQttC40L0g0L7RgdGC0YvQstCw0LXRgi4.mp3"
+  },
+  {
+   "text": "Здесь всё слышно.",
+   "file": "ru/text_0JfQtNC10YHRjCDQstGB0ZEg0YHQu9GL0YjQvdC-.mp3"
+  },
+  {
+   "text": "Откуда ты знаешь, что я сделал?",
+   "file": "ru/text_0J7RgtC60YPQtNCwINGC0Ysg0LfQvdCw0LXRiNGM.mp3"
+  },
+  {
+   "text": "Надир-девять, говорит Морозова, сутки три. Меня переводят вниз. Если что — я оставлю записи в эфире.",
+   "file": "ru/text_0J3QsNC00LjRgC3QtNC10LLRj9GC0YwsINCz0L7Q.mp3"
+  },
+  {
+   "text": "Надир-девять... говорит... … ...Не молчи, Алексей. Не молчи.",
+   "file": "ru/text_0J3QsNC00LjRgC3QtNC10LLRj9GC0YwuLi4g0LPQ.mp3"
+  },
+  {
+   "text": "Внимание. Внимание. Всем... всем...",
+   "file": "ru/text_0JLQvdC40LzQsNC90LjQtS4g0JLQvdC40LzQsNC9.mp3"
+  },
+  {
+   "text": "Ужин в девятнадцать ноль-ноль. Явка обязательна.",
+   "file": "ru/text_0KPQttC40L0g0LIg0LTQtdCy0Y_RgtC90LDQtNGG.mp3"
+  },
+  {
+   "text": "Не включайте основное освещение.",
+   "file": "ru/text_0J3QtSDQstC60LvRjtGH0LDQudGC0LUg0L7RgdC9.mp3"
+  }
+ ]
+}
