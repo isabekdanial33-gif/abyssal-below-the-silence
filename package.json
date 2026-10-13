@@ -1,7 +1,7 @@
 {
   "name": "abyssal-below-the-silence",
   "private": true,
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "ABYSSAL: BELOW THE SILENCE — психологический survival horror на Three.js",
   "type": "module",
   "scripts": {},
