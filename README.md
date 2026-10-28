@@ -2,9 +2,23 @@
 
 Психологический survival horror на Three.js. Комплекс NADIR-9, 2041 год, глубина 1,8 км.
 
+## Скачать
+
+**[Последняя версия для Windows x64](https://github.com/isabekdanial33-gif/abyssal-below-the-silence/releases/latest)**
+
+Распакуйте ZIP и запустите `ABYSSAL.exe`.
+
+## Версия 1.2.0 — кооператив и оптимизация
+
+- В главном меню появился режим **«Играть вдвоём»**.
+- Один игрок создаёт лобби, второй подключается по шестизначному коду.
+- Supabase Realtime синхронизирует игроков, двери, подобранные предметы и ключевое состояние мира; хозяин лобби ведёт состояние прохождения.
+- Добавлен low-spec профиль: отключены тяжёлые эффекты и тени, снижена частота фоновых подсистем, разрешение автоматически адаптируется к FPS.
+- Для кооператива обоим игрокам нужна версия 1.2.0 и подключение к интернету.
+
 ## Запуск
 - **Онлайн:** https://abyssal-below-the-silence.vercel.app
-- **Windows (.exe):** `release/ABYSSAL-win32-x64/ABYSSAL.exe`
+- **Windows (.exe):** скачайте ZIP на странице [Releases](https://github.com/isabekdanial33-gif/abyssal-below-the-silence/releases)
 - **Разработка:** `npm install` → `npm run dev` → http://localhost:5173
 - Сборка веба: `npm run build` (папка `dist`). Сборка exe: `npm run build`, затем
   `npx @electron/packager . ABYSSAL --platform=win32 --arch=x64 --out=release --overwrite --asar --ignore="^/(src|public|tools|release)" --ignore="^/node_modules"`
